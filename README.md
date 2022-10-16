@@ -1,6 +1,6 @@
 # congenica_test
 Auotmated tests for hiring challange at Congenica
 
-How to run tests:
+From cloned repo directory run:
 
-pip install -r requirements.txt && pytest 
+export PYTHONPATH="${PYTHONPATH}:${PWD}" && pip install -r requirements.txt && pytest -s -v congenica_test/tests/web/ --app=web 
