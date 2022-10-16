@@ -1,7 +1,5 @@
-congenica_test/__pycache__/
-congenica_test/src/__pycache__/
-congenica_test/report/
 **/__pycache__/
+**/report/
 app.log
 geckodriver.log
 *.png
